@@ -1,0 +1,32 @@
+body {
+    font-family: sans-serif;
+    background-color: aliceblue;
+    padding: 25px;
+    margin: 0px;
+    width: calc(100%, 100px);
+    border: solid black 1px;
+    transition: 1s;
+}
+
+body:hover {
+    padding: 15px;
+    transition: 1s;
+}
+
+.titulo {
+    background-color: black;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+}
+
+.b2 {
+    border-radius: 100px;
+    border: solid black 1px;
+    transition: 1s;
+}
+
+.b2:hover {
+    border-radius: 50px;
+    transition: 1s;
+}
