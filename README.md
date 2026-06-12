@@ -1,2 +1,2 @@
-# 2ADS-front-end
+# front-end-basico
 Códigos das aulas de Front-end
