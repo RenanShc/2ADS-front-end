@@ -157,9 +157,8 @@ li strong {
 
 .conteudoAutorais p {
     margin: 0;
-}
+} 
 
-/* Responsive */
 @media (max-width: 768px) {
     .tituloPrincipal {
         font-size: 1.8em;
