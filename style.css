@@ -1,0 +1,70 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(17, 188, 148);
+    color: rgb(0, 0, 0);
+    border-bottom: 1px solid black;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+}
+
+.cabecalho h1 {
+    padding: 20px;
+    width: auto;
+    border: none;
+    border-radius: 2rem;
+    background-color:  rgb(15, 176, 139);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.cabecalho nav a {
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    transition: 1s;
+    background-color:  rgb(15, 176, 139);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.cabecalho nav a:hover {
+    text-decoration: underline;
+    transform: scale(1.1);
+    text-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.cabecalho nav a:active {
+    text-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+section {
+    display: grid;
+    padding: 50px;
+    margin: 20px;
+    text-align: center;
+    background-color: aliceblue;
+    border: none;
+    border-radius: 2rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: 0.5s linear;
+    height: auto;
+    align-items: center;
+    font-size: x-large;
+}
+
+section:hover {
+    transform: scale(1.01);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.9);
+}
+
+footer {
+    text-align: center;
+    align-items: center;
+}
